@@ -1,0 +1,5 @@
+DMU,Doctors,Nurses,Beds,Patients,SurvivalRate
+Dept A,40,80,150,2000,0.97
+Dept B,35,70,140,1900,0.96
+Dept C,45,85,160,2100,0.98
+Dept D,38,75,145,1950,0.95
