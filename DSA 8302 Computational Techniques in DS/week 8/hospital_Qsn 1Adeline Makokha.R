@@ -6,7 +6,7 @@
 library(Benchmarking)
 
 # Read hospital data
-#hospital_data <- read.csv("hospital_data.csv")
+
 hospital_data <- read.csv("C:/Users/PC/Downloads/ADEH-MSC/Module 3/Module-3/DSA 8302 Computational Techniques in DS/week 8/hospital_data.csv")
 
 

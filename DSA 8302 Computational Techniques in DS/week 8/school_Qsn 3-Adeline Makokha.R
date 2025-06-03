@@ -5,7 +5,8 @@
 library(Benchmarking)
 
 # Read school data
-school_data <- read.csv("school_data.csv")
+
+school_data <- read.csv("C:/Users/PC/Downloads/ADEH-MSC/Module 3/Module-3/DSA 8302 Computational Techniques in DS/week 8/school_data.csv")
 
 # Print raw data
 print("School Performance Data:")
@@ -36,3 +37,4 @@ barplot(school_data$CCR_Efficiency, names.arg=school_data$DMU,
 barplot(school_data$BCC_Efficiency, names.arg=school_data$DMU,
         col="darkgreen", ylim=c(0,1.1), main="BCC Efficiency Scores - Schools",
         ylab="Efficiency Score", las=2)
+

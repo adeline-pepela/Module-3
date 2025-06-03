@@ -5,7 +5,8 @@
 library(Benchmarking)
 
 # Read retail data
-retail_data <- read.csv("retail_data.csv")
+
+retail_data <- read.csv("C:/Users/PC/Downloads/ADEH-MSC/Module 3/Module-3/DSA 8302 Computational Techniques in DS/week 8/retail_data.csv")
 
 # Print raw data
 print("Retail Store Data:")
@@ -36,3 +37,4 @@ barplot(retail_data$CCR_Efficiency, names.arg=retail_data$DMU,
 barplot(retail_data$BCC_Efficiency, names.arg=retail_data$DMU,
         col="darkgreen", ylim=c(0,1.1), main="BCC Efficiency Scores - Retail",
         ylab="Efficiency Score", las=2)
+
